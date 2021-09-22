@@ -1,2 +1,2 @@
 #!/bin/bash
-move betty /tmp/ /tmp/my_first_directoryls
+move betty /tmp/my_first_directoryls
