@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod d -exec ugo+x ./*
+chmod f -exec ugo+x ./*
