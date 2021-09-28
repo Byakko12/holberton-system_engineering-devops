@@ -35,3 +35,6 @@
 
 **11-directories**
 * script that counts the number of directories and sub-directories in the current directory.
+
+**12-newest_files**
+* script that displays the 10 newest files in the current directory.
