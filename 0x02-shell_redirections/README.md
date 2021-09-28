@@ -65,3 +65,6 @@
 
 **21-reverse**
 * script that reverse its input.
+
+**22-users_and_homes**
+* script that displays all users and their home directories, sorted by users.
