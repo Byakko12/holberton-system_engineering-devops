@@ -20,3 +20,9 @@
 
 **5-local_variables**
 * script that lists all local variables and environment variables, and functions.
+
+**6-create_local_variable**
+* script that creates a new local variable.
+
+> * Name: BEST
+> * Value: School
