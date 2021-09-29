@@ -75,3 +75,6 @@
 
 **101-rot13**
 * script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+
+**102-odd**
+* script that prints every other line from the input, starting with the first line.
