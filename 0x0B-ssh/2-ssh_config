@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #configuration file for the local SSH client
-Host 3.89.137.201
-HostName 3.89.137.201
+Host 34.148.151.72
+HostName 34.148.151.72
 User ubuntu
 IdentityFile ~/.ssh/school
 batchmode yes
