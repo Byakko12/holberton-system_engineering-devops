@@ -52,7 +52,7 @@ frontend www-https
         default_backend www-backend
 
 backend www-backend
-        redirect scheme https if !{ ssl_fc }
         balance roundrobin
-        server 3489-web-01 34.148.170.206:80 check
-        server 3489-web-02 34.148.139.135:80 check
+        redirect scheme https code 301 if !{ ssl_fc }
+        server 3867-web-01 34.138.104.139:80 check
+        server 3867-web-02 54.89.111.28:80 check
