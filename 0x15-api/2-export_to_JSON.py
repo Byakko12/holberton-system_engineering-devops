@@ -11,13 +11,13 @@ if __name__ == '__main__':
         'https://jsonplaceholder.typicode.com/users/{}'.format(user_id)).json()
     todos = requests.get('https://jsonplaceholder.typicode.com/todos?userId={}'
                          .format(user_id)).json()
-    name = user.get('username')
+    username = user.get('username')
     tasks = []
     for task in todos:
         task_dict = {}
         task_dict["task"] = task.get('title')
         task_dict["completed"] = task.get('completed')
-        task_dict["username"] = name
+        task_dict["username"] = username
         tasks.append(task_dict)
     dictobj = {}
     dictobj[user_id] = tasks
